@@ -1,6 +1,6 @@
 # NanoCMS v0.4 SEF url's mod_rewrite file
 RewriteEngine On
-RewriteBase /nano/nanocms_community_0_7_prep
+RewriteBase /nano/DVD/nanocms
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ index.php?page=$1 [L]
