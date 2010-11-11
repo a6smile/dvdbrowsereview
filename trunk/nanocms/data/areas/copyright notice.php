@@ -1,1 +1,1 @@
-&copy; 2010 Type In your name<br>
+&copy; 2010 DVD Browse 'n' Review<br>

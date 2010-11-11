@@ -14,12 +14,10 @@
 <body>
 <div id="wrapper">
   <div id="content">
-    
-    <div id="mainimg">
-      <h3><?php show_content_area('WebSite Name'); ?></h3>
-    	<h4><?php show_content_area('WebSite slogan'); ?></h4>
-    </div>
-	<div id="header">
+    <div id="header">
+     <div id="logo"><img src="./images/logo.jpg" /></div>
+     	<div id="linksarea">
+     	  </div>
       <div id="links">
         <ul>
           <?php
@@ -30,14 +28,25 @@
       </div>
     
     </div>
+    <div id="mainimg">
+      <h3><?php show_content_area('WebSite Name'); ?></h3>
+    	<h4><?php show_content_area('WebSite slogan'); ?></h4>
+    </div>
     <div id="contentarea">
       <div id="leftbar">
         <?php show_content_slug(); ?>
       </div>
       <div id="rightbar">
       	<div class="news">
-        <h2>Login</h2>
+        <h2>Latest News</h2>
         <?php show_content_slug("News1"); ?>
+        </div>
+        <div class="menus">
+        <h2>Navigation</h2>
+        <ul>
+        <?php show_sidebar(); ?>
+        </ul>
+        <?php show_content_area('Below Navigation'); ?>
         </div>
       </div>
     </div>

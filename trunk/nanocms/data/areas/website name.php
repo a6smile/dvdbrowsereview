@@ -1,1 +1,0 @@
-nanoCMS Community Edition 0.6
