@@ -1,0 +1,8 @@
+Documentary
+Horror
+Comedy
+Romance
+Science Fiction
+Anime
+Drama
+Action
