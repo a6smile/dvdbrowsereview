@@ -1,1 +1,2 @@
-<p><br _mce_bogus="1"></p>
+<p><br _mce_bogus="1">
+DVD Browse’n’Review Online is a small DVD Library business. We pride ourselves on having a large selection of DVDs with plenty of varity for everyone to find something they will enjoy.</p>
