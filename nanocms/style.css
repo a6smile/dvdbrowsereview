@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5, h6, p, form {
 	color:#fff;
 	font-weight:normal;
 	text-decoration:none;
-	background-color:#F4A80A;
+	background-color:#436EEE;
 }
 
 #links ul li a:hover{
@@ -100,9 +100,9 @@ h1, h2, h3, h4, h5, h6, p, form {
 }
 
 #mainimg {
-	background-image:url(./images/main_img2.jpg);
+	background-image:url('./images/DVD BnR Banner-Main.jpg');
 	background-repeat:no-repeat;
-	height:132px;
+	height:195px;
 	text-align:right;
 }
 
@@ -307,7 +307,7 @@ h1, h2, h3, h4, h5, h6, p, form {
 #footer {
 	text-align: center;
 	width:850px;
-	background-color:#9BBE00;
+	background-color:#436EEE;
 	padding-bottom: 20px;
 	padding-top:20px;
 	font-family:"Trebuchet MS";
