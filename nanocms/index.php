@@ -34,12 +34,6 @@
       <div id="leftbar">
         <?php show_content_slug(); ?>
       </div>
-      <div id="rightbar">
-      	<div class="news">
-        <h2>Login</h2>
-        <?php show_content_slug("News1"); ?>
-        </div>
-      </div>
     </div>
     <div id="bottom">
       <div id="footer">
