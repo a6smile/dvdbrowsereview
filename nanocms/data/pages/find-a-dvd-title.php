@@ -73,8 +73,7 @@
 
 				if ($category != "All")
 				{
-					$found = stristr($explode[3], $category);
-					if (!$found)
+					if ($explode[3] != $category)
 					{
 						$catmatch = false;
 					}
@@ -82,8 +81,8 @@
 
 				if ($classification != "All")
 				{
-					$found = stristr($explode[4], $classification);
-					if (!$found)
+					//echo "explode=" . $explode[4] . " $class=" . $classification . "<br />";
+					if ($explode[4] != $classification)
 					{
 						$classmatch = false;
 					}
@@ -266,6 +265,7 @@
 					echo "<td>" . $match_array['director'][$key] . "</td>";
 					echo "<td>" . $match_array['actors'][$key] . "</td>";
 					echo "<td>" . $match_array['desc'][$key] . "</td>";
+					echo "<td colspan='7'>" . count($match_array) . " DVDs found.</td>";
 					echo "</tr>";
 				}
 			}
