@@ -106,7 +106,7 @@
 					}
 				}
 
-				if ($titlematch && $yearmatch && $catmatch && $classmatch && $dirmatch && $actormatch)
+				if (($titlematch && $yearmatch && $catmatch && $classmatch && $dirmatch && $actormatch) && $explode[0] != "")
 				{
 					$match_array['id'][] = $explode[0];
 					$match_array['title'][] = $explode[1];
@@ -265,9 +265,9 @@
 					echo "<td>" . $match_array['director'][$key] . "</td>";
 					echo "<td>" . $match_array['actors'][$key] . "</td>";
 					echo "<td>" . $match_array['desc'][$key] . "</td>";
-					echo "<td colspan='7'>" . count($match_array) . " DVDs found.</td>";
 					echo "</tr>";
 				}
+					echo "<tr><td colspan='7'>" . count($match_array['id']) . " DVDs found.</td></tr>";
 			}
 		?>
 	</table>
