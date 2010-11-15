@@ -4,7 +4,7 @@
 <p><br></p>
 <p>The source code is maintained at <a _mce_href="http://code.google.com/p/dvdbrowsereview/" href="http://code.google.com/p/dvdbrowsereview/">Googlecode</a>
 <br _mce_bogus="1"></p><p><br></p>
-<p>The iaaues registee is maintained available <a _mce_href="docs/issues.xls" href="docs/issues.xls">Here</a>
+<p>The iaaues register is maintained available <a _mce_href="docs/issues.xls" href="docs/issues.xls">Here</a>
 <br _mce_bogus="1"></p><p><br></p>
 <p>The design specs are <a _mce_href="docs/DVD Browser.doc" href="docs/DVD%20Browser.doc">here</a>
 <br _mce_bogus="1"></p><p>Student stage 1 wire frames for 
