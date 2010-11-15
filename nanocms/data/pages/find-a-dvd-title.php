@@ -259,7 +259,7 @@
 				foreach($match_array[$sort] as $key=>$value)
 				{
 					echo "<tr>";
-					echo "<td><a href=". show_content_slug() .">" . $match_array['title'][$key] . "</a></td>";
+					echo '<td><a href=data/pages/view-dvd-titles.php?id=' . $match_array['id'][$key] . '>' . $match_array['title'][$key] . '</a></td>';
 					echo "<td>" . $match_array['year'][$key] . "</td>";
 					echo "<td>" . $match_array['category'][$key] . "</td>";
 					echo "<td>" . $match_array['classification'][$key] . "</td>";

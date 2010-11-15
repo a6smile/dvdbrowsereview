@@ -65,7 +65,7 @@
 			echo "Image file must be entered";
 		elseif ((strpos($title, "~") != 0) || (strpos($year, "~") != 0) || (strpos($director, "~") != 0) || (strpos($actors, "~") != 0) || (strpos($short, "~") != 0) || (strpos($long, "~") != 0) || (strpos($image, "~") != 0))
 			echo "~ may not be used in text fields";
-		elseif(!file_exists("img/" . $image))
+		elseif(!file_exists("images/" . $image))
 			echo $image . " does not exist in the img folder";
 		else
 		{
@@ -73,7 +73,7 @@
 			$id_fileh = fopen($id_file,'r');
 			$id_num = file_get_contents($id_file);
 			$id_num++;
-			echo $id_num;
+			//echo $id_num;
 			
 			$id_fileh = fopen($id_file,'w');
 			fwrite($id_fileh, $id_num);
